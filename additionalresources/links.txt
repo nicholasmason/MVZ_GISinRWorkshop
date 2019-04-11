@@ -1,1 +1,8 @@
+### Tutorials ###
 https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html
+
+### Data Sources ###
+http://datazone.birdlife.org/species/requestdis #Birdlife International Shapefiles
+https://hub.arcgis.com/pages/open-data
+https://earthexplorer.usgs.gov/
+https://terra.ipums.org/

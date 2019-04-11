@@ -1,10 +1,12 @@
 ### Install and load required packages ###
-install.packages(c("sp","sf","dismo","raster","maptools"))
+install.packages(c("sp","sf","dismo","raster","maptools","rgeos","rvertnet"))
 library("sp")
 library("sf")
 library("dismo")
 library("raster")
 library("maptools")
+library("rgeos")
+library("rvertnet")
 
 ### Download GADM vector data for political boundaries via raster package ###
 usa_county_gadm<-getData(name="GADM",country="USA",level=2)
@@ -48,7 +50,7 @@ CA_bioclim<-raster:::mask(CA_bioclim,CA_county)
 plot(CA_bioclim[[1]])
 plot(CA_county,add=T,lwd=1.5)
 
-### Read in shape file ###
+### Read in shape file for cinclus mexicanus ###
 cinclus<-readOGR("~/MVZ_GISinRWorkshop/shapefiles/Cinclus_mexicanus/Cinclus_mexicanus.shp")
 cinclus@data
 
