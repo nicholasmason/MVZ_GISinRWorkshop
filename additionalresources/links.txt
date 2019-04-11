@@ -1,8 +1,15 @@
 ### Tutorials ###
 https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html
+http://www.nickeubank.com/gis-in-r/
+https://github.com/cengel
+https://sejdemyr.github.io/#teaching
 
 ### Data Sources ###
 http://datazone.birdlife.org/species/requestdis #Birdlife International Shapefiles
 https://hub.arcgis.com/pages/open-data
 https://earthexplorer.usgs.gov/
 https://terra.ipums.org/
+
+### Books / eBooks ###
+https://us.sagepub.com/en-us/nam/an-introduction-to-r-for-spatial-analysis-and-mapping/book241031
+https://geocompr.robinlovelace.net/
