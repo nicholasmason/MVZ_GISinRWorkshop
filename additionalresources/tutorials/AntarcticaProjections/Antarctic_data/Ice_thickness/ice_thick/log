@@ -1,0 +1,3 @@
+200005191425   0     1   456bedmap GRID823 = grid823_tmp
+200006091408   0     0     3bedmap projectcopy cover ../base_data/coast_poly grid grid823
+200006091421   0     0   480bedmap copy grid823 /data/bedmap/production/grids/icethic

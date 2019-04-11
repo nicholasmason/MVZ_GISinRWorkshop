@@ -1,0 +1,15 @@
+200007121355   0     7     0aprc
+200007121355   0     8     0aprc latticecontour dem05 cont05a 500 0 cnt05hgt 0.1
+200007121355   0     0     0aprc rename cont05a cont05
+200007121410   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121422   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121440   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121513   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121537   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121538   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121538   0     0     0aprc ARCEDIT C:\ADDWORK\CONT05
+200007121539   0     0     0aprc build cont05 lines
+200007121548   3   130     0aprc identity cont05 rock05 cont05a line 1
+200007121558   0     0     0aprc projectcopy cover coast01 cover cont05a
+200007121559   0     0     0aprc rename cont05a cont05
+200007121602   0     1     0aprc copy cont05 i:\data\addwork\add\av\scale05\cont05

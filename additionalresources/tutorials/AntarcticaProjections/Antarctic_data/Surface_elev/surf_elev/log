@@ -1,0 +1,2 @@
+199910221543   1     7 14600bedmap OSU_5KM = resample(osu1km, 5000)
+200006091429   0     0  1752bedmap copy OSU_5KM /data/bedmap/production/grids/surface

@@ -1,0 +1,18 @@
+200003201706   0     0    15ojco create gflow00 /data/addwork/generalise/coast01
+200003201706   0     0     1ojco build gflow00 lines
+200003201712   0     0     0ojco ARCEDIT /DATA/ADDWORK/GFLOW/GFLOW00
+200003201712   0     0     0ojco ARCEDIT /DATA/ADDWORK/GFLOW/GFLOW00
+200003201712   0     0     0ojco ARCEDIT /DATA/ADDWORK/GFLOW/GFLOW00
+200003201718   0     0     2ojco rename gflow00 gflw_unclip
+200003201723   5   231    10ojco clip gflw_unclip /data/addwork/generalise/clip gflow00 line
+200003211601   0     0     0ojco ARCEDIT /DATA/ADDWORK/GFLOW/GFLOW00
+200004071403   0    25     0aprc export cover ../gflow/gflow00 gflow00 n
+20000622 917   1     1     0aprc copy i:\data\addwork\gflow\gflow00 gflow00
+20000622 958   0     0     0aprc ARCEDIT C:\ADDWORK\GFLOW00
+200006221001   0     0     0aprc ARCEDIT C:\ADDWORK\GFLOW00
+200006221015   0     0     0aprc ARCEDIT C:\ADDWORK\GFLOW00
+200006221016   0     1     0aprc build gflow00 lines
+200007121609   1     1     0aprc copy gflow00 gflow05
+200007121611   0     0     0aprc ARCEDIT C:\ADDWORK\GFLOW05
+200007121611   0     0     0aprc build gflow05 lines
+200007121612   0     0     0aprc copy gflow05 i:\data\addwork\add\av\scale05\gflow05

@@ -1,0 +1,11 @@
+Projection    POLAR
+Zunits        NO
+Units         METERS
+Spheroid      WGS84
+Xshift        0.0000000000
+Yshift        0.0000000000
+Parameters
+ 0  0  0.000 /* longitude of central meridian
+-71  0  0.000 /* latitude of true scale
+0.00000 /* false easting (meters)
+0.00000 /* false northing (meters)

@@ -1,0 +1,3 @@
+200006121205   0     2   784bedmap BED_ELEV = int(bed)
+200006121208   0     0   763bedmap copy bed_elev /data/bedmap/production/grids/bedelev
+200312122058   0     2     0helper C:\AV\ANTARC~1\BEDROC~1\bed_elev\calc2 = C:\AV\ANTARC~1\BEDROC~1\bed_elev
