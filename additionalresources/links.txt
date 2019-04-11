@@ -1,15 +1,36 @@
-### Tutorials ###
-https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html
-http://www.nickeubank.com/gis-in-r/
-https://github.com/cengel
-https://sejdemyr.github.io/#teaching
-
 ### Data Sources ###
 http://datazone.birdlife.org/species/requestdis #Birdlife International Shapefiles
 https://hub.arcgis.com/pages/open-data
 https://earthexplorer.usgs.gov/
 https://terra.ipums.org/
+https://www.iucnredlist.org/resources/spatial-data-download #IUCN Redlist: shapefiles for lots of species
+https://databasin.org/ #Data Basin: is a science-based mapping and analysis platform that supports learning, research, and sustainable environmental stewardship.  It hosts a lot of GIS information.
+http://www.worldclim.org/ Worlclim: Free climate data for ecological modeling and GIS  (FYI new version (v2) now available for current climate but not past)
+
+### Tutorials / online info ###
+https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html
+http://www.nickeubank.com/gis-in-r/
+https://github.com/cengel
+https://sejdemyr.github.io/#teaching
+https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/ #Overview of Coordinate Reference Systems (CRS) in R
 
 ### Books / eBooks ###
 https://us.sagepub.com/en-us/nam/an-introduction-to-r-for-spatial-analysis-and-mapping/book241031
 https://geocompr.robinlovelace.net/
+
+### GIS resources at Berkeley ###
+Geospatial Innovation Facility (GIF), http://gif.berkeley.edu
+	Offers regular workshops, office hours advising (need to sign up), GIS workstations.  Can subscribe to "gif-community@lists.berkeley.edu” to keep advised of GIS related events.
+
+ESPM 137 – Landscape Ecology (Fall semesters, taught by Ian Wang)
+	Goes through a variety of GIS techniques and using R for GIS analyses.  I highly recommend the class!
+
+The Berkeley Ecoinformatics Engine  https://ecoengine.berkeley.edu/
+Aims to provide access to biodiversity information from the university’s rich and diverse repositories as well as tools to promote visualization and in depth analysis. 
+Has an R package that lets you easily plot species occurrence data from museum databases.  https://ropensci.org/blog/2014/01/30/ecoengine/
+
+MVZ maproom
+	Has workstations with GIS software.
+
+QGIS: A Free and Open Source Geographic Information System 
+	https://www.qgis.org/en/site/

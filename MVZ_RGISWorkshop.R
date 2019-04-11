@@ -1,5 +1,5 @@
 ### Install and load required packages ###
-install.packages(c("sp","sf","dismo","raster","maptools","rgeos","rvertnet"))
+install.packages(c("sp","sf","dismo","raster","maptools","rgeos","rvertnet","rgdal"))
 library("sp")
 library("sf")
 library("dismo")
@@ -7,6 +7,7 @@ library("raster")
 library("maptools")
 library("rgeos")
 library("rvertnet")
+library("rgdal")
 
 ### Download GADM vector data for political boundaries via raster package ###
 usa_county_gadm<-getData(name="GADM",country="USA",level=2)
@@ -44,8 +45,8 @@ points(search_results_trim$decimallongitude, search_results_trim$decimallatitude
 ### Download bioclim data and digital elevation data via raster package ###
 bioclim_world<-getData("worldclim",var="tmin",res=10)
 
-CA_bioclim<-raster:::crop(bioclim_world,CA_county)
-CA_bioclim<-raster:::mask(CA_bioclim,CA_county)
+CA_bioclim<-raster:::crop(bioclim_world,CA_county) #Crop will restrain the raster to the extent of the vector file
+CA_bioclim<-raster:::mask(CA_bioclim,CA_county) #Mask will make it so that values that fall outside of the vector become NA
 
 plot(CA_bioclim[[1]])
 plot(CA_county,add=T,lwd=1.5)
@@ -67,10 +68,11 @@ points(search_results_trim$decimallongitude, search_results_trim$decimallatitude
 
 ### Add elevational data ###
 usa_alt<-getData("alt",country="USA",mask=T)
+
+### Crop and mask shapefile to only include California ###
 CA_alt<-raster:::crop(usa_alt[[1]],CA_county)
 CA_alt<-raster:::mask(CA_alt,CA_county)
 
-### Mask shapefile to only include California ###
 plot(CA_alt,breaks=seq(CA_alt@data@min,CA_alt@data@max,length.out=100),col=rev(gray.colors(100)),legend=F)
 
 cinclus_CA<-raster:::crop(cinclus_simple,CA_county)
