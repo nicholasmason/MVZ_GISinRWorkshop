@@ -5,7 +5,10 @@ https://earthexplorer.usgs.gov/
 https://terra.ipums.org/
 https://www.iucnredlist.org/resources/spatial-data-download #IUCN Redlist: shapefiles for lots of species
 https://databasin.org/ #Data Basin: is a science-based mapping and analysis platform that supports learning, research, and sustainable environmental stewardship.  It hosts a lot of GIS information.
-http://www.worldclim.org/ Worlclim: Free climate data for ecological modeling and GIS  (FYI new version (v2) now available for current climate but not past)
+http://www.worldclim.org/ #Worlclim: Free climate data for ecological modeling and GIS  (FYI new version (v2) now available for current climate but not past)
+https://climexp.knmi.nl/start.cgi #useful tool for collecting monthly, daily, annual weather patterns
+http://prism.oregonstate.edu #another source of climatic data, both current and historical
+http://www.cru.uea.ac.uk/data #Climate Research Unit has a variety of climate datasets, including temperature, preciptation data sets that interface with GoogleEarth
 
 ### Tutorials / online info ###
 https://nceas.github.io/oss-lessons/spatial-data-gis-law/1-mon-spatial-data-intro.html
